@@ -1,26 +1,28 @@
+
+/* navbar */
+
 #navbar-menu {
- /* Couleur de fond de la barre de navigation */
- 	background-color: #d3dbe5;
- 	border-color: #E7E7E7;
+ background-color: #314970;
+ border-color: #E7E7E7;
+ border-radius: 0;
 }
 
-#onglet li a{
-  color: #000000;
-
-}
-
-#navbar-brand {
+#navbar-menu-onglet li a{
   color: #000000;
 }
 
-#partieConexion li a{
-  color: #000000;
-}
-
-#partieConexion li a:hover{
-  color: white;
-}
-
-#onglet li a:hover{
+#navbar-menu-onglet li a:hover{
   color:white;
+}
+
+#navbar-menu-titre {
+  color: #000000;
+}
+
+#navbar-menu-connexion li a{
+  color: #000000;
+}
+
+#navbar-menu-connexion li a:hover{
+  color: white;
 }
