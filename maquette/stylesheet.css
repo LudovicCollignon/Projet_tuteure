@@ -23,8 +23,8 @@ html body{
 #navbar-menu-onglet-dropdown div a{
   color: grey;
 }
-#navbar-menu-onglet-dropdown li a:active{
-  background-color: red;
+#navbar-menu-onglet-dropdown div a:active{
+  background-color: grey;
 }
 
 #navbar-menu-onglet li a:hover{
