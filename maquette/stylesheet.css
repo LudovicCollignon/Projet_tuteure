@@ -1,7 +1,7 @@
-#navbar {
+#navbar-menu {
  /* Couleur de fond de la barre de navigation */
- background-color: #d3dbe5;
- border-color: #E7E7E7;
+ 	background-color: #d3dbe5;
+ 	border-color: #E7E7E7;
 }
 
 #onglet li a{
