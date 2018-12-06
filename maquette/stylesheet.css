@@ -1,28 +1,46 @@
+html body{
+	/*background-color: #d7d7ed;*/
+	font-size: 1.4em;
+}
 
 /* navbar */
-
 #navbar-menu {
- background-color: #314970;
- border-color: #E7E7E7;
- border-radius: 0;
+	letter-spacing: 0.7px;
+	padding: 1em;
+	background: linear-gradient(to bottom right, #006666 0%, #000066 100%);
+	box-shadow: 1px 5px 15px 2px #9393a5;
+	border: none;
+	border-radius: 0;
 }
 
 #navbar-menu-onglet li a{
-  color: #000000;
+  color: white;
+}
+#navbar-menu-onglet li a:active{
+  background-color: red;
+}
+
+#navbar-menu-onglet-dropdown div a{
+  color: grey;
+}
+#navbar-menu-onglet-dropdown li a:active{
+  background-color: red;
 }
 
 #navbar-menu-onglet li a:hover{
-  color:white;
+  color: #b6dbdb;
 }
 
 #navbar-menu-titre {
-  color: #000000;
+	letter-spacing: 0;
+	font-size: 2em;
+  color: white;
 }
 
 #navbar-menu-connexion li a{
-  color: #000000;
+  color: white;
 }
 
 #navbar-menu-connexion li a:hover{
-  color: white;
+  color: #b6dbdb;
 }
