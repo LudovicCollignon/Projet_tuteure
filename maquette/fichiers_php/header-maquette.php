@@ -26,7 +26,7 @@
               <div class="col-3-2"><a class="dropdown-item" href="#">Cours 2</a></div>
               <div class="col-3-3"><a class="dropdown-item" href="#">Cours 3</a></div>
             </div>
-            <a id="voir-tout" class="dropdown-item" href="cours.php">Voir tout -></a>
+            <h4><a id="voir-tout" class="dropdown-item" href="cours.php">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
           </div>
         </li>
 
@@ -51,7 +51,7 @@
               <div class="col-3-2"><a class="dropdown-item" href="#">Exercice 2</a></div>
               <div class="col-3-3"><a class="dropdown-item" href="#">Exercice 3</a></div>
             </div>
-            <a id="voir-tout" class="dropdown-item" href="exercices.php">Voir tout -></a>
+            <h4><a id="voir-tout" class="dropdown-item" href="exercices.php">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
           </div>
         </li>
 

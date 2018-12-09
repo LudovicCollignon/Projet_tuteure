@@ -91,3 +91,19 @@ body, html{
 	margin:auto; */
 	/* border-style: solid; */
 }
+
+
+.dropdown-menu h4 #voir-tout{
+	padding-left: 1em;
+	padding-right: 0.3em;
+	text-decoration: none;
+	color: #9d9d9d;
+}
+
+.dropdown-menu h4 #voir-tout:hover{
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 0.3em;
+	background-color: #9d9d9d;
+	color: white;
+}
