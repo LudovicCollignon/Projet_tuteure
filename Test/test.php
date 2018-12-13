@@ -13,11 +13,11 @@
 	<form action="resultatTest.php" method="post">
 	Requete	<input type="textarea" name="requete"> <br>
 	Valider	<input type="submit" name="Valider"> <br>
-	</form>	
+	</form>
 
 
 
- 
+
 </body>
 </html>
 
