@@ -1,5 +1,5 @@
 <?php
-	if($bdd = mysqli_connect('localhost', 'root', '', 'test'))
+	if($bdd = mysqli_connect('localhost', 'eng', 'eng', 'tableTest'))
 	{
 		//echo "connecte";
 	}
@@ -28,8 +28,8 @@
 	}
 
 	$resultatTotal = mysqli_query($bdd,'WITH
-											TA AS ('.$_POST['requete'].'), 
-											TB AS (SELECT * from tableTest where age > 14 && age < 22)  
+											TA AS ('.$_POST['requete'].'),
+											TB AS (SELECT * from tableTest where age > 14 && age < 22)
 											SELECT * FROM TA
 											EXCEPT
 											SELECT * FROM TB
@@ -49,7 +49,7 @@
 
 
 ?><br><br>
-<?php 
+<?php
 ?>
 
 <!doctype html>
@@ -63,6 +63,6 @@
 <body>
 	Est ce que j'ai bon ? : <br>
 	<?php echo $_POST["requete"];?>
- 
+
 </body>
 </html>
