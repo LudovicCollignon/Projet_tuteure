@@ -1,4 +1,14 @@
 <?php
+	if($bdd = mysqli_connect('localhost', 'eng', 'eng', 'tableTest'))
+	{
+		//echo "connecte";
+	}
+	else // Mais si elle rate…
+	{
+		//echo 'Erreur'; // On affiche un message d'erreur.
+	}
+	//ce que le mec doit obtenir
+	$resultat = mysqli_query($bdd, 'SELECT * from tableTest where age > 14 && age < 22');
 
 if($bdd = mysqli_connect('http://dwarves.iut-flbeau.fr/colligno', 'colligno', 'colligno', 'TP2_EX1_ACDA'))
 {
@@ -21,12 +31,16 @@ while($donnees = mysqli_fetch_assoc($resultat))
 
 $resultatRequeteUtilisateur = mysqli_query($bdd, $_POST['requete']);
 
-while($donnees = mysqli_fetch_assoc($resultatRequeteUtilisateur))
-{
-	echo $donnees['nomPersonne'];
-	echo "\n";
-	echo $donnees['age'] ;?> <br> <?php
-}
+	$resultatTotal = mysqli_query($bdd,'WITH
+											TA AS ('.$_POST['requete'].'),
+											TB AS (SELECT * from tableTest where age > 14 && age < 22)
+											SELECT * FROM TA
+											EXCEPT
+											SELECT * FROM TB
+											UNION ALL
+											SELECT * FROM TB
+											EXCEPT
+											SELECT * FROM TA');
 
 $resultatTotal = mysqli_query($bdd,'WITH
 TA AS ('.$_POST['requete'].'),

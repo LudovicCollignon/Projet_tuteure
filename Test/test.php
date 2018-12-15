@@ -35,7 +35,7 @@ INSERT INTO tableTest VALUES(3,"maxime",18,11);
 
 INSERT INTO tableTest VALUES(4,"hugo",36,17);
 INSERT INTO tableTest VALUES(5,"lena",12,95);
-INSERT INTO tableTest VALUES(6,"lucas",18,35
+INSERT INTO tableTest VALUES(6,"lucas",18,35);
 
 INSERT INTO tableTest VALUES(7,"erwan",14,25);
 INSERT INTO tableTest VALUES(8,"alex",16,99);
