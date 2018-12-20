@@ -2,11 +2,6 @@ body, html{
 	height: 100%;
 	margin:0;
 	padding:0;
-<<<<<<< HEAD
-=======
-	/*background-color: #d7d7ed;*/
-	/* font-size: 1.4em; */
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 }
 
 /* navbar */
@@ -21,32 +16,18 @@ body, html{
 	box-shadow: 0 6px 6px -6px #aaa;
 }
 
-<<<<<<< HEAD
-=======
-/* #navbar-menu-onglet-exercices,#navbar-menu-onglet-connexion div a{
-  color: grey;
-} */
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 #navbar-menu-onglet-dropdown div a:active{
   background-color: white;
 }
 
 #navbar-menu-onglet li a:hover{
-<<<<<<< HEAD
   color: #5bcccc;
-=======
-  color: #b6dbdb;
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 }
 
 #navbar-menu-titre {
 	letter-spacing: 0;
 	font-size: 2em;
-<<<<<<< HEAD
 	color: #5bcccc;
-=======
-	color: #b6dbdb;
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 }
 
 #navbar-menu-titre:hover{
@@ -59,52 +40,28 @@ body, html{
 
 #navbar-menu-inscription{
 	margin-right: 6px;
-<<<<<<< HEAD
 	background-color: #5bcccc;
-=======
-	background-color: #b6dbdb;
-	/* border: 1px solid black; */
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 	border-radius: 4px;
 }
 
 #navbar-menu-connexion{
 	margin-right: 10px;
 	border-radius: 4px;
-<<<<<<< HEAD
 	border: 1px solid #5bcccc;
 }
 
 #navbar-menu-inscription a{
 	color: white;
-=======
-	border: 1px solid #b6dbdb;
-}
-
-#navbar-menu-inscription a{
-	/* color: #b6dbdb; */
-	color: white;
-	/* box-shadow: 0 6px 6px -6px #aaa; */
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 }
 #navbar-menu-inscription a:hover{
 	box-shadow: 6px 6px 6px -6px #aaa;
 }
 
 #navbar-menu-connexion a{
-<<<<<<< HEAD
 	color: #5bcccc;
 }
 #navbar-menu-connexion a:hover{
 	background-color: #d6ffff;
-=======
-	/* color: #b6dbdb; */
-	color: #b6dbdb;
-	/* box-shadow: 0 6px 6px -6px #aaa; */
-}
-#navbar-menu-connexion a:hover{
-	background-color: #ECF6F6;
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 }
 #background-img{
 	background-image: url("../images/border_img_presentation.jpg");
@@ -117,17 +74,6 @@ body, html{
 	border: 2px solid red;
 }
 
-<<<<<<< HEAD
-=======
-.container{
-
-	/* padding: auto;
-	margin:auto; */
-	/* border-style: solid; */
-}
-
-
->>>>>>> a1b9d35ea7864793bf9772c8e117179f350b0d9b
 .dropdown-menu h4 #voir-tout{
 	padding-left: 1em;
 	padding-right: 0.3em;
