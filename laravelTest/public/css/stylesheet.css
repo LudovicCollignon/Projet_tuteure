@@ -16,10 +16,6 @@ body, html{
 	box-shadow: 0 6px 6px -6px #aaa;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4dd15313db5ab9aae242dcadc6de3dcc71dc3ab3
 #navbar-menu-onglet-dropdown div a:active{
   background-color: white;
 }
@@ -27,6 +23,7 @@ body, html{
 #navbar-menu-onglet li a:hover{
   color: #5bcccc;
 }
+
 #navbar-menu-titre {
 	letter-spacing: 0;
 	font-size: 2em;
@@ -55,11 +52,6 @@ body, html{
 
 #navbar-menu-inscription a{
 	color: white;
-	border: 1px solid #b6dbdb;
-}
-
-#navbar-menu-inscription a{
-	color: white;
 }
 #navbar-menu-inscription a:hover{
 	box-shadow: 6px 6px 6px -6px #aaa;
@@ -70,9 +62,6 @@ body, html{
 }
 #navbar-menu-connexion a:hover{
 	background-color: #d6ffff;
-}
-#navbar-menu-connexion a:hover{
-	background-color: #ECF6F6;
 }
 #background-img{
 	background-image: url("../images/border_img_presentation.jpg");

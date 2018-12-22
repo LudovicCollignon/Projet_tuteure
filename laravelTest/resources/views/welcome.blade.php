@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HP Omen
+                    MacBook Pro
                 </div>
 
                 <div class="links">

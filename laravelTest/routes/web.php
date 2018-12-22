@@ -26,11 +26,3 @@ Route::get('/inscription', function () {
 Route::post  ('/inscription', function () {
   return 'formualire reçu';
 });
-
-Route::get('/cours', function () {
-  return view('cours');
-});
-
-Route::get('/coursListe', function () {
-  return view('coursListe');
-});
