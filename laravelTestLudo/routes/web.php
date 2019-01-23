@@ -11,27 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-  return view('welcome');
-});
+Route::view('/','welcome');
 
-Route::get('/accueil', function () {
-  return view('accueil');
-});
+Route::view('/accueil','accueil');
 
-Route::get('/inscription', function () {
-  return view('inscription');
-});
+Route::get('/inscription', 'InscriptionController@afficherFormulaire');
+Route::post('/inscription', 'InscriptionController@traiterFormulaire');
 
+Route::get('/connexion', 'ConnexionController@afficherFormulaire');
+Route::post('/connexion', 'ConnexionController@traiterFormulaire');
 
-Route::post('/inscription', function () {
-  $utilisateur = new App\Utilisateur;
-  $utilisateur->nom = request('nom');
-  $utilisateur->prenom = request('prenom');
-  $utilisateur->email = request('email');
-  $utilisateur->mdp = request('mdp');
-
-  $utilisateur->save();
-
-  return view('accueil');
-});
+Route::view('/modele-exercice','modele-exercice');
+Route::view('/modele-cours','modele-cours');
+Route::view('/modele-notes','modele-notes');
