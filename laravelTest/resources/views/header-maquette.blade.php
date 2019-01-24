@@ -2,7 +2,7 @@
   <nav id="navbar-menu" class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a id="navbar-menu-titre" class="navbar-brand" href="accueil.blade.php">SQLearning</a>
+        <a id="navbar-menu-titre" class="navbar-brand" href="accueil">SQLearning</a>
       </div>
       <ul id="navbar-menu-onglet" class="nav navbar-nav">
         <li id="navbar-menu-onglet-cours" class="dropdown">
@@ -10,7 +10,7 @@
           <div class="dropdown-menu">
             <div id="navbar-menu-onglet-dropdown">
               <div class="row"><h3 class="dropdown-header">SQL</h3></div>
-              <div class="col-1-1"><a class="dropdown-item" href="#">Cours 1</a></div>
+              <div class="col-1-1"><a class="dropdown-item" href="cours">Cours 1</a></div>
               <div class="col-1-2"><a class="dropdown-item" href="#">Cours 2</a></div>
               <div class="col-1-2"><a class="dropdown-item" href="#">Cours 3</a></div>
             </div>
@@ -26,7 +26,7 @@
               <div class="col-3-2"><a class="dropdown-item" href="#">Cours 2</a></div>
               <div class="col-3-3"><a class="dropdown-item" href="#">Cours 3</a></div>
             </div>
-            <h4><a id="voir-tout" class="dropdown-item" href="cours.php">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
+            <h4><a id="voir-tout" class="dropdown-item" href="coursListe">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
           </div>
         </li>
 
@@ -41,7 +41,7 @@
             </div>
             <div id="navbar-menu-onglet-dropdown">
               <div class="row"><h3 class="dropdown-header">Textes à trous</h3></div>
-              <div class="col-2-1"><a class="dropdown-item" href="#">Exercice 1</a></div>
+              <div class="col-2-1"><a class="dropdown-item" href="texteATrou">Exercice 1</a></div>
               <div class="col-2-2"><a class="dropdown-item" href="#">Exercice 2</a></div>
               <div class="col-2-3"><a class="dropdown-item" href="#">Exercice 3</a></div>
             </div>

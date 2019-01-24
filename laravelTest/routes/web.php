@@ -26,3 +26,26 @@ Route::get('/inscription', function () {
 Route::post  ('/inscription', function () {
   return 'formualire reçu';
 });
+
+Route::get('/coursListe', function () {
+  return view('coursListe');
+});
+
+Route::get('/cours', function () {
+  return view('cours');
+});
+
+Route::get('/texteATrou', function () {
+  return view('texteATrou');
+});
+
+Route::post('/texteATrou', function () {
+  $rep = DB::table('textatrou')->where('numQuestion',11)->first();
+  foreach ($rep as $key => $value) {
+    if($rep->rep1 == request('textatrou')){
+     echo("gg fdp");
+    }
+  }
+
+  return view('texteATrou');
+});

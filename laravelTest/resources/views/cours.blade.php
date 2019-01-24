@@ -21,6 +21,6 @@
     <br>
     <div class="col-sm-11"><a href = "coursListe"><button type="button" class="btn btn-outline-primary">Liste des cours</button></a></div>
     <div class="col-sm-1"><a href = "exercices"><button type="button" class="btn btn-outline-primary">S'éxercer</button></a></div>
-
+  </div>
 </body>
 @endsection
