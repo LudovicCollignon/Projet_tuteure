@@ -86,6 +86,7 @@ body, html{
 	color: white;
 }
 #navbar-menu-inscription a:hover{
+	cursor: pointer;
 	box-shadow: 6px 6px 6px -6px #aaa;
 }
 
@@ -93,6 +94,7 @@ body, html{
 	color: #5bcccc;
 }
 #navbar-menu-connexion a:hover{
+	cursor: pointer;
 	background-color: #d6ffff;
 }
 #background-img{
@@ -101,9 +103,6 @@ body, html{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-.img{
-	border: 2px solid red;
 }
 
 .dropdown-menu h4 #voir-tout{

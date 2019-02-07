@@ -5,13 +5,14 @@
       <div class="navbar-header">
         <a id="navbar-menu-titre" class="navbar-brand" href="accueil">SQLearning</a>
       </div>
+
       <button id="navbar-menu-button-collapse" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="collapse navbar-collapse" id="myNavbar">
 
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul id="navbar-menu-onglet" class="nav navbar-nav">
           <li id="navbar-menu-onglet-cours" class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown"  href="cours">COURS<span class="caret"></span></a>
@@ -34,12 +35,12 @@
                 <div class="col-3-2"><a class="dropdown-item" href="modele-cours">Cours 2</a></div>
                 <div class="col-3-3"><a class="dropdown-item" href="modele-cours">Cours 3</a></div>
               </div>
-              <h4><a id="voir-tout" class="dropdown-item" href="cours">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
+              <h4><a id="voir-tout" class="dropdown-item" href="cours">Voir tout<span class="glyphicon glyphicon-chevron-right"></span></a></h4>
             </div>
           </li>
 
           <li id="navbar-menu-onglet-exercices" class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="exercices.php">EXERCICES<span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="exercices">EXERCICES<span class="caret"></span></a>
             <div class="dropdown-menu">
               <div id="navbar-menu-onglet-dropdown">
                 <div class="row"><h3 class="dropdown-header">Quiz</h3></div>
@@ -59,7 +60,7 @@
                 <div class="col-3-2"><a class="dropdown-item" href="modele-exercice">Exercice 2</a></div>
                 <div class="col-3-3"><a class="dropdown-item" href="modele-exercice">Exercice 3</a></div>
               </div>
-              <h4><a id="voir-tout" class="dropdown-item" href="exercices">Voir tout<span class="glyphicon glyphicon-chevron-right"></a></h4>
+              <h4><a id="voir-tout" class="dropdown-item" href="exercice-tout">Voir tout<span class="glyphicon glyphicon-chevron-right"></span></a></h4>
             </div>
           </li>
 
@@ -67,11 +68,12 @@
         </ul>
 
         <ul id="navbar-menu-connect" class="nav navbar-nav navbar-right">
-          <li id="navbar-menu-inscription"><a href="inscription"><span id="glyphicon-inscription" class="glyphicon glyphicon-user"></span> Inscription</a></li>
+          <li id="navbar-menu-inscription"><a data-toggle="modal" data-target="#inscription--modal"><span id="glyphicon-inscription" class="glyphicon glyphicon-user"></span> Inscription</a></li>
           <li id="navbar-menu-connexion"><a data-toggle="modal" data-target="#connexion--modal"><span id="glyphicon-connexion" class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
         </ul>
       </div>
       @include('connexion')
+      @include('inscription')
     </div>
   </nav>
 </header>

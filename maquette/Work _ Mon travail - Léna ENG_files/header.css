@@ -1,0 +1,26 @@
+#navbar-menu ul li .nav-link{
+  color: #fce5e8;
+  /* box-shadow: #aaa; */
+}
+
+#navbar-menu ul li .nav-link:hover{
+  color: #6b0d2f;
+}
+
+#navbar-menu{
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand{
+  margin-top: -25px;
+  padding: 0 30px;
+}
+
+#navbar-menu{
+  margin: 0;
+}

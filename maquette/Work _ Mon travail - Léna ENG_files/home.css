@@ -1,0 +1,16 @@
+body{
+  background-color: #222;
+  color: #fce5e8;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.135em;
+}
+
+.carousel.slide{
+  width: 100%;
+  height: auto;
+}
+
+.carousel.slide img{
+  width: 100%;
+  height: auto;
+}

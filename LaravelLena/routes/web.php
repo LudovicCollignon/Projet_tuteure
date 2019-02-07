@@ -11,29 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-  return view('welcome');
-});
+Route::view('/','welcome');
 
-Route::get('/accueil', function () {
-  return view('accueil');
-});
+Route::view('/accueil','accueil');
 
-Route::get('/inscription', function () {
-  return view('inscription');
-});
+Route::get('/inscription', 'InscriptionController@afficherFormulaire');
+Route::post('/inscription', 'InscriptionController@traiterFormulaire');
 
-Route::post  ('/inscription', function () {
-  return 'formulaire reçu';
-});
+Route::get('/connexion', 'ConnexionController@afficherFormulaire');
+Route::post('/connexion', 'ConnexionController@traiterFormulaire');
 
-Route::get  ('/modele-exercice', function () {
-  return view('modele-exercice');
-});
-
-Route::get  ('/modele-cours', function () {
-  return view('modele-cours');
-});
-Route::get  ('/modele-notes', function () {
-  return view('modele-notes');
-});
+Route::view('/modele-exercice','modele-exercice');
+Route::view('/modele-cours','modele-cours');
+Route::view('/modele-notes','modele-notes');
+Route::view('/exercice-tout','exercice-tout');

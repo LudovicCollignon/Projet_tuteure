@@ -23,7 +23,7 @@
             <h4 class="modal-title">Aide</h4>
           </div>
           <div class="modal-body">
-            <p>Ici, les aides varieront selon l'exercice. À nous de voir comment le faire, quoi...</p>
+            <p>Ici, les aides varieront selon l'exercice. À nous de voir comment le faire.</p>
           </div>
         </div>
 
