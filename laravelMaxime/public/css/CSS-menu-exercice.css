@@ -1,0 +1,23 @@
+#qcm,#Tat,#rc{
+  border: 1px solid light-gray;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 20%;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  box-shadow: 6px 6px 6px -6px #aaa;
+  background-color: gray;
+}
+
+#qcm:hover,#Tat:hover,#rc:hover{
+  background-color:#a3b2cc;
+  cursor: pointer;
+
+}
+#listeQCM{
+  display: none;
+}
+#lien1,#lien2,#lien3{
+  margin:auto;
+}
