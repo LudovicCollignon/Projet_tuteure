@@ -11,41 +11,27 @@
 |
 */
 
-Route::get('/', function () {
-  return view('welcome');
-});
+Route::view('/','welcome');
 
-Route::get('/accueil', function () {
-  return view('accueil');
-});
+Route::view('/accueil','accueil');
 
-Route::get('/inscription', function () {
-  return view('inscription');
-});
+Route::get('/inscription', 'InscriptionController@afficherFormulaire');
+Route::post('/inscription', 'InscriptionController@traiterFormulaire');
 
-Route::post  ('/inscription', function () {
-  return 'formualire reçu';
-});
+Route::get('/connexion', 'ConnexionController@afficherFormulaire');
+Route::post('/connexion', 'ConnexionController@traiterFormulaire');
 
-Route::get('/coursListe', function () {
-  return view('coursListe');
-});
+Route::view('/modele-exercice','modele-exercice');
+Route::view('/modele-cours','modele-cours');
+Route::view('/modele-notes','modele-notes');
+Route::view('/menu-exercice','menu-exercice');
+Route::view('/exercice-tout','exercice-tout');
+Route::view('/texteATrou','texteATrou');
 
-Route::get('/cours', function () {
-  return view('cours');
-});
+Route::get('/testQCM', 'QCMController@afficher');
 
-Route::get('/texteATrou', function () {
-  return view('texteATrou');
-});
+Route::post('/testQCM', 'QCMController@functionTest');
 
-Route::post('/texteATrou', function () {
-  $rep = DB::table('textatrou')->where('numQuestion',11)->first();
-  foreach ($rep as $key => $value) {
-    if($rep->rep1 == request('textatrou')){
-     echo("gg fdp");
-    }
-  }
-
-  return view('texteATrou');
-});
+Route::get('/texteATrou/{idChap}/{idQuest}','ExerciceTatController@show')->name('texteATrou');
+Route::get('/modele-exercice{id}','MenuExerciceController@show')->name('modele-exercice');
+Route::get('/modele-cours{id}','MenuCoursController@show')->name('modele-cours');
