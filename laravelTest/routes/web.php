@@ -32,6 +32,8 @@ Route::get('/testQCM', 'QCMController@afficher');
 
 Route::post('/testQCM', 'QCMController@functionTest');
 
-Route::get('/texteATrou/{idChap}/{idQuest}','ExerciceTatController@show')->name('texteATrou');
+Route::get('/texteATrou.{idChap}.{idQuest}','ExerciceTatController@show')->name('texteATrou');
 Route::get('/modele-exercice{id}','MenuExerciceController@show')->name('modele-exercice');
 Route::get('/modele-cours{id}','MenuCoursController@show')->name('modele-cours');
+
+Route::post('/texteATrou', 'ExerciceTatController@verif');

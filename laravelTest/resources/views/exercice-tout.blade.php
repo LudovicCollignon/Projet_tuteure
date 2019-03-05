@@ -71,7 +71,7 @@
           <div class="col-sm-4">
             <ul>
               <?php
-              $test = App\Text_a_trou::select('numChap', 'nomChap')->whereRaw('numChap % 3 = 1')->get();
+              $test = App\Text_a_trou::select('numChap', 'nomChap')->whereRaw('numChap % 3 = 1 and numQuest = 1')->get();
               foreach($test as  $key1 => $v1){
                 echo 'Chapitre '.$v1->numChap.'  : '.$v1->nomChap;
                 $test2 = App\Text_a_trou::select('numQuest')->where('numChap','=',$v1->numChap)->get();
