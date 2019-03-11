@@ -1,0 +1,16 @@
+.btn-primary{
+  background-color: #5bcccc;
+  border-color: transparent;
+}
+
+.btn-primary:hover{
+  color: #5bcccc;
+  background-color: #fff;
+  border-color: #5bcccc;
+}
+
+@media screen and (min-width: 765px) {
+  .form-group{
+    width: 300px;
+  }
+}
